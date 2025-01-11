@@ -1,0 +1,299 @@
+body{
+    margin:0;
+    padding:0;
+    cursor:pointer;
+}
+
+.products{
+    margin-top:2rem;
+    margin-left:2rem;
+    margin-right:2rem;
+    /* background-color: white; */
+}
+
+.card{
+   width:270px;
+   /* border:2px  black; */
+   box-shadow: 10px 10px 10px 10px rgb(179, 172, 172) ;
+}
+
+.sub-card{
+    margin:1rem;
+
+}
+
+.acc-image{
+    width:150px;
+    height: 100px;
+    margin-top:1rem;
+    margin-left:2rem;
+}
+/* type of acc*/
+ 
+.type{
+    background-color: rgb(233, 200, 200);
+    border:1px solid rgb(221, 62, 62);
+    border-radius:10px;
+    line-height: 0.9rem;
+    font-size:0.8em;
+}
+
+.name{
+    font-size:1.4rem;
+    font-weight: bold;
+}
+
+.desc{
+    font-size:0.9rem;
+  margin-top:-0.5rem;
+}
+
+.price{
+    display: flex;
+    gap:16px;
+    font-size:1.1rem;
+}
+
+.old-price{
+    text-decoration: line-through;
+}
+
+.quantity{
+margin-top:0.5rem;
+}
+
+#pieces{
+    width:40px;
+    margin-left:0.3rem;
+    line-height: 0.5rem;
+}
+
+.add{
+    margin-top:0.5rem;
+}
+
+.card-col-one{
+    display: flex;
+    gap:30px;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+/*nav*/
+
+.nav{
+    position: sticky;
+    /* position: fixed;
+    width:100%;
+    background-color: white; */
+    box-shadow: 1px 1px 2px rgb(193, 191, 191);
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    padding:0.5rem;
+}
+
+.nav-options{
+    margin-top:0.6rem;
+}
+
+.nav-options ul{
+    display: flex;
+    gap:18px;
+}
+
+.nav-options li{
+    list-style: none;
+}
+
+.add-to-cart-button{
+    COLOR:WHITE;
+    background-color: #0A0E15;
+    width:60px;
+    height:2rem;
+    margin-top:-0.4rem;
+    padding-top:0.4rem;
+    border-radius:5px;
+}
+
+.add-to-cart-button i{
+    padding-left:0.5rem;
+    padding-right:0.5rem;
+    padding-top:0.1rem;
+}
+
+nav .nav-options a{
+    text-decoration: none;
+    color:black;
+}
+
+nav .nav-options a:hover{
+    color:red;
+}
+
+.prd-con{
+    margin-bottom:4rem;
+}
+
+/* .prd-con{
+    background-color: grey;
+} */
+
+  
+   /*footer icon*/
+
+.footer_icons ul{
+    float: right;
+    display: flex;
+    gap:10px;
+    margin-right:1rem;
+}
+ .footer_icons li{
+    list-style: none;
+    font-size:1.3rem;
+}
+
+.footer_icons a{
+    text-decoration: none;
+    color:white;
+}
+
+.footer_icons li:hover{
+  font-size:1.4rem;
+}
+
+/*footer*/
+
+footer{
+    background-color: #212631;
+}
+
+.mode ul li{
+    list-style: none;
+
+}
+
+.mode ul li{
+    padding-left: 0.3rem;;
+}
+
+.mode ul{
+display: flex;
+
+}
+
+.payMode{
+    margin:0.5rem;
+    margin-top:3rem;
+}
+
+.footer-main-head{
+    font-size:1.1rem;
+    color:white;
+
+}
+
+.payMode p{
+    font-size:1rem;
+    padding-top:2rem;
+    COLOR:WHITE;
+}
+
+.mode{
+    margin-left:-2.3rem;
+}
+
+.footer-box ul li{
+    list-style: none;
+    line-height:2rem;
+}
+
+
+.footer-insight{
+    margin-top:2rem;
+    margin-left:-1rem;
+}
+
+.experience{
+    margin-top:2rem;
+    margin-left:-1rem;
+}
+
+
+.newletter{
+    margin-top:2rem;
+}
+
+.footer-insight ul li a{
+    text-decoration: none;
+    color:rgb(190, 184, 184);
+}
+
+.footer-insight ul li a:hover{
+    color:white;
+}
+
+
+.newletter p{
+    color:white;
+}
+
+.social_media{
+    background-color: aquamarine;
+}
+
+/*responsive footer*/
+@media(max-width:800px){
+    .email button{
+        margin-top:1rem;
+        margin-left:2rem;
+    }
+
+    .email{
+        margin-left:3rem;
+    }
+
+    .email input{
+        width:250px;
+    }
+
+}
+
+        /*mobile*/
+
+@media (max-width:480px){
+    .insight-first{
+        margin-left:1rem;
+    }
+
+    /*sub footer*/
+
+    .footer-text-p{
+        font-size:0.9rem;
+    }
+
+    .footer_audi{
+        font-size:1rem;
+        width:100px;
+    }
+
+    .footer-text{
+        margin-left:-1rem;
+    }
+    .footer-first-content{
+        margin-left:-0.5rem;
+    }
+
+    .email input{
+        width:150px;
+        line-height:1rem;
+        margin-left:-1.5rem; 
+        margin-top:0.5rem;
+    }
+   
+    .subscribe{
+        margin-top:0.5rem;
+    } 
+}  

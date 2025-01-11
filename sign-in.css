@@ -1,0 +1,108 @@
+.sign-in{
+    width:380px;
+    /* background-color: w; */
+}
+
+.sign-in-page{
+    display: flex;
+    justify-content: center;
+}
+.brand-logo{
+    display: flex;
+    justify-content: center;
+    margin-top:1rem;
+}
+
+.sign-in-box{
+    border:1px solid rgb(147, 143, 143);
+    margin:1rem;
+    padding:1.2rem 1.8rem 1.2rem 1.2rem;
+    /* display: inline; */
+    border-radius:6px;
+}
+
+.sign-in-box h4{
+    font-size:2.2rem;
+    margin-top:-0.3rem;
+}
+
+.sign-in-box input{
+    line-height:1.8rem;
+    width:100%;
+    border:1px solid grey;
+}
+
+.user-info{
+    font-size:1rem;
+    margin-top:1rem;
+}
+
+.user-info input{
+     border-radius:4px;
+     margin-top:0.2rem;
+}
+
+.cont{
+    width:100%;
+    line-height: 1.7rem;
+    border:none;
+    margin-top:0.8rem;
+    border-radius:4px;
+   background-color:rgb(239, 203, 39);
+}
+
+.sign-in-box .info{
+    margin-top:2rem;
+}
+
+.sign-in-box a{
+    text-decoration: none;
+    color:rgb(11, 11, 192);
+}
+
+.sign-in li{
+    list-style:square;
+}
+
+.sign-in ul{
+    margin-left:-1.5rem;
+    margin-top:2rem;
+}
+
+.sign-in a:hover{
+    color:rgb(163, 24, 24);
+    text-decoration: underline;
+}
+
+.new-cust{
+    display: flex;
+    color:rgb(176, 172, 172);
+}
+.one , .two{
+     width:100px;
+     /* margin-top:-0.2rem; */
+     /* margin-top:-2px; */
+}
+
+.new-cust{
+    margin-left:1.9rem;
+}
+
+.new-cust-p{
+    margin-top:3px;
+}
+.new-acc{
+    width:90%;
+    line-height: 1.7rem;
+    font-size:0.9rem;
+    margin-left:1rem;
+    margin-bottom:1rem;
+    border-radius:8px;
+    border:1px solid rgb(172, 167, 167);
+    margin-top:0.5rem;
+    background-color: white;
+}
+
+.new-acc:hover{
+    background-color: #F0F1F5;
+}

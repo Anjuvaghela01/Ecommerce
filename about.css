@@ -1,0 +1,415 @@
+/*section1*/
+
+.about-content{
+    /* margin-top:7rem; */
+    padding-top:5rem;
+}
+
+.section1{
+    display: flex;
+    background-color: blue;
+    color:white;
+   
+}
+
+.section1-image-part, .section1-text-part{
+    margin:4rem;
+}
+
+.section1-text-part{
+    padding:1rem;
+    
+}
+
+.brand-name{
+    font-size:2.5rem;
+    font-weight: bold;
+}
+
+.under-brand{
+    font-size:1.4rem;
+}
+
+.aboutus{
+    margin-top:7rem;
+    font-size:1rem;
+    line-height: 1.5rem;
+    padding:0.5rem 2.5rem 0.5rem 2.5rem;
+    border:1px solid  #fff;
+    background-color: blue;
+    color:#fff;
+    border-radius:4px;
+
+}
+
+.aboutus:hover{
+    background-color: white;
+    color: blue;
+}
+
+
+@media(max-width:480px){
+    .section1-image{
+        width:150px;
+        height:200px;
+        margin-left:-2.5rem;
+    }
+    
+    .brand-name{
+        font-size:1.4rem;
+    }
+
+    .under-brand{
+        font-size: 0.8rem;
+    }
+    
+
+    .aboutus{
+        line-height:1rem;
+        width:100px;
+        font-size: 0.8rem;
+        margin-top:-0.5rem;
+        margin-top:0.5rem;
+        padding:0.5rem 1rem 0.5rem 1rem;
+            
+    }
+
+    .section1-text-part{
+        margin-left:-3rem;
+        margin-top:-0.5rem;
+    }
+}
+
+
+
+.section2{
+    display: flex;
+    margin-top:2rem;
+    justify-content: space-around;
+}
+
+.section2-image{
+    display: flex;
+    padding:1rem 6rem 1rem 6rem;
+    margin-right:-2rem;
+}
+
+.section2-text-part{
+    width:426px;
+    /* margin-left:-6rem; */
+    /* background-color: yellow; */
+    margin-bottom:2rem;
+    margin-top:1rem;
+    padding:1rem 1.5rem 1rem 1.5rem;
+
+}
+ 
+.one{  
+   background-color: rgb(182, 179, 179);
+   border-radius:50%;
+   padding:2.5rem 2.5rem 2.5rem 4rem;
+}
+
+.two{
+    border-radius:50%;
+    padding:2.5rem 2.5rem 2.5rem 4rem;
+    background-color: rgb(210, 208, 208);
+    margin-top:-2.8rem;
+}
+
+.circleTwo{
+    background-color: rgb(182, 179, 179);
+    border-radius:50%;
+    padding:2.5rem 2.5rem 2.5rem 4rem;
+}
+
+
+/*nav*/
+
+.nav{
+    position: fixed;
+    width: 100%;
+    background-color: white;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    padding:0.5rem;
+}
+
+.nav-options{
+    margin-top:0.6rem;
+}
+
+.nav-options ul{
+    display: flex;
+    gap:18px;
+}
+
+.nav-options li{
+    list-style: none;
+}
+
+.add-to-cart-button{
+    COLOR:WHITE;
+    background-color: #0A0E15;
+    width:60px;
+    height:2rem;
+    margin-top:-0.4rem;
+    padding-top:0.4rem;
+    border-radius:5px;
+}
+
+.add-to-cart-button i{
+    padding-left:0.5rem;
+    padding-right:0.5rem;
+    padding-top:0.1rem;
+}
+
+
+nav .nav-options a{
+    text-decoration: none;
+    color:black;
+}
+
+nav .nav-options a:hover{
+    color:red;
+}
+
+
+
+footer{
+    background-color: #212631;
+}
+
+.mode ul li{
+    list-style: none;
+
+}
+
+.mode ul li{
+    padding-left: 0.3rem;;
+}
+
+.mode ul{
+display: flex;
+}
+
+.payMode{
+    margin:0.5rem;
+    margin-top:3rem;
+}
+
+.footer-main-head{
+    font-size:1.1rem;
+    color:white;
+}
+
+.payMode p{
+    font-size:1rem;
+    padding-top:2rem;
+    COLOR:WHITE;
+}
+
+.mode{
+    margin-left:-2.3rem;
+}
+
+.footer-box ul li{
+    list-style: none;
+    line-height:2rem;
+}
+
+
+.footer-insight{
+    margin-top:2rem;
+    margin-left:-1rem;
+}
+
+.experience{
+    margin-top:2rem;
+    margin-left:-1rem;
+}
+
+.newletter{
+    margin-top:2rem;
+}
+
+.footer-insight ul li a{
+    text-decoration: none;
+    color:rgb(190, 184, 184);
+}
+
+.footer-insight ul li a:hover{
+    color:white;
+}
+
+
+.newletter p{
+    color:white;
+}
+
+.social_media{
+    background-color: aquamarine;
+}
+
+/*sub footer*/
+
+.sub-footer-content{
+    display: flex;
+    padding:1.5rem 2rem 1.5rem 2rem;
+    justify-content: space-between;
+}
+
+
+.footer_audi{
+    font-size:1.3rem;
+    color:white;
+    background-color: #5C8BD6;
+    width:180px;
+    padding-left:1rem;
+   border-radius:50px;
+  margin-top:-0.5rem;
+}
+.footer-text-p{
+    color:#5C8BD6;
+}
+
+.footer-first-content{
+    background-color: #F0F1F5;
+     margin:1.5rem;
+    border-radius:8px;
+}
+
+.email button{
+ width:100px;
+ font-size:1.1rem;
+ border:none;
+ background-color: #5C8BD6;
+ border-radius:4px;
+ color:white;
+ margin-left:0.7rem;
+ line-height: 1.8rem;;
+}
+
+.email input{
+    width:350px;
+    border-radius:4px;
+    border:1px solid rgb(132, 127, 127);
+    line-height: 1.9rem;;
+}
+
+.email{
+    margin-top:1rem;
+}
+
+/*footer icon*/
+
+.footer_icons ul{
+    float: right;
+    display: flex;
+    gap:10px;
+    margin-right:1rem;
+}
+ .footer_icons li{
+    list-style: none;
+    font-size:1.3rem;
+}
+
+.footer_icons a{
+    text-decoration: none;
+    color:white;
+}
+
+.footer_icons li:hover{
+  font-size:1.4rem;
+}
+
+ @media(max-width:890px){
+    /* .section2{
+        display: inline;
+    } */
+
+    /* .section2-text-part{
+        margin-left:3rem;
+    } */
+}
+
+@media(max-width:920px){
+    .section2-image{
+        margin-left:-4.5rem;
+    }
+
+    .section2-text-part{
+        margin-left:-2rem;
+    }
+}
+
+@media(max-width:790px){
+    .section2{
+        display: inline;
+    }
+
+    .section2-image{
+        margin-left:5rem;
+    }
+
+    .section2-text-part{
+        margin-left:10rem;
+    }
+
+    .payMode{
+        margin-left:2rem;
+    }
+}
+
+@media(max-width:480px){
+    .insight-first{
+        margin-left:1rem;
+    }
+
+    /*sub footer*/
+
+    .footer-text-p{
+        font-size:0.9rem;
+    }
+
+    .footer_audi{
+        font-size:1rem;
+        width:100px;
+    }
+
+    .footer-text{
+        margin-left:-1rem;
+    }
+    .footer-first-content{
+        margin-left:-0.5rem;
+    }
+
+    .email input{
+        width:150px;
+        line-height:1rem;
+        margin-left:-1.5rem; 
+        margin-top:0.5rem;
+    }
+   
+    .subscribe{
+        margin-top:0.5rem;
+    } 
+
+    .section1{
+        display: inline;
+    }
+}
+
+@media(max-width:952px){
+    /* .aboutus{
+        margin-top:-rem;
+    } */
+
+     .section1-text-part button{
+        margin-top:-3rem;
+        margin-top:3rem;
+     }
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Customer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="sign-up.css">
+</head>
+<body>
+<form action="/action">
+    <div class="content">
+        <div class="sign-up">
+            <div class="brand-logo">
+                <img
+                    src="elements/brandlogo.png"
+                    class="brand-logo"
+                    height="60px"
+                    width="80px"                         
+                />
+                
+            </div>
+
+            <div class="sign-up-box">
+                <h2>Create Account</h2>
+                <div class="user-name">
+                    <label for="name">Your Name </label>
+                    <input type="text" class="form-control" placeholder="First and Last name" required="true" id="name" name="user-name">
+
+                </div>
+
+                <div class="mobile">
+                    <label for="mobile-no">Mobile number</label>
+                    <div class="input-group flex-nowrap">
+                        <span class="input-group-text" id="addon-wrapping">+91</span>
+                        <input type="text" class="form-control" placeholder="Mobile number" aria-label="Username" aria-describedby="addon-wrapping">
+                      </div>
+                </div>
+
+                <div class="pas">
+                    <label for="pass">Password</label>
+                    <input type="text" class="form-control" placeholder="at least 6 characters" id="pass" name="password">
+                </div>
+
+                <p class="under-pass">Password must be at least of 6 characters</p>
+
+                <p class="ver-pass">To verify your number, we will send you a text message with a temporary code. Message and data rates may apply.</p>
+
+                <button class="btn btn-warning">Verify Mobile number</button>
+                
+                <hr>
+
+                <p class="alr">Already have an account? <a class="x">Sign-in <i class="fa-solid fa-play"></i></a></p>
+            </div>
+            
+        </div>
+    </div>
+</form>
+</body>
+</html>

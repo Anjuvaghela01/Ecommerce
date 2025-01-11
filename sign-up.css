@@ -1,0 +1,59 @@
+.brand-logo{
+    display: flex;
+    justify-content: center;
+}
+
+label{
+    font-weight: bolder;
+}
+
+.sign-up{
+    width:380px;
+    margin-top:2rem;
+}
+
+.sign-up-box{
+    border:1px solid rgb(183, 180, 180);
+    margin:1rem;
+    padding:1rem;
+    border-radius:8px;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+
+}
+
+.user-name , .mobile , .pas{
+    margin-top:1rem;
+}
+
+.under-pass{
+    font-size:0.8rem;
+    margin-top:0.2rem;
+}
+
+.ver-pass{
+    font-size:0.9rem;
+/* margin-top:0.2rem; */
+}
+
+.btn{
+    width:100%;
+}
+
+.alr a i{
+    font-size: 0.5rem;;
+    margin-left:0.3rem;
+    /* margin-top:-1rem; */
+    /* padding-top: -1rem;; */
+}
+
+.alr {
+    font-size:0.8rem;
+}
+
+.alr a{
+    text-decoration: none;
+}

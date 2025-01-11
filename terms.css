@@ -1,0 +1,289 @@
+body{
+    padding:0;
+    margin:0;
+    cursor: pointer;
+    background-color: rgb(192, 185, 185);
+}
+
+.terms .main-head{
+    font-size:1.1rem;
+    font-weight:bold;
+}
+
+.terms ul li{
+    padding-top:0.8rem;
+    list-style: none;
+}
+
+.terms{
+    /* margin-left:3rem;
+    margin-right:6rem;
+    margin-top:6rem; */
+    /* margin-top:8rem;
+    margin-left:4rem;
+    margin-right:4rem; */
+    margin:8rem 6rem 2rem 4rem;
+    background-color: white;
+}  
+ 
+.terms li a{
+    text-decoration: none;
+}
+
+/*nav*/
+
+.nav{
+    position: fixed;
+    width:100%;
+    background-color: white;
+    margin-top:-8rem;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    padding:0.5rem;
+}
+
+.nav-options{
+    margin-top:0.6rem;
+}
+
+.nav-options ul{
+    display: flex;
+    gap:18px;
+}
+
+.nav-options li{
+    list-style: none;
+}
+
+.add-to-cart-button{
+    COLOR:WHITE;
+    background-color: #0A0E15;
+    width:60px;
+    height:2rem;
+    margin-top:-0.4rem;
+    padding-top:0.4rem;
+    border-radius:5px;
+}
+
+.add-to-cart-button i{
+    padding-left:0.5rem;
+    padding-right:0.5rem;
+    padding-top:0.1rem;
+}
+
+nav .nav-options a{
+    text-decoration: none;
+    color:black;
+}
+
+nav .nav-options a:hover{
+    color:red;
+}
+
+/* footer */
+
+footer{
+    background-color: #212631;
+}
+
+.mode ul li{
+    list-style: none;
+
+}
+
+.mode ul li{
+    padding-left: 0.3rem;;
+}
+
+.mode ul{
+display: flex;
+
+}
+
+.payMode{
+    margin:0.5rem;
+    margin-top:3rem;
+}
+
+.footer-main-head{
+    font-size:1.1rem;
+    color:white;
+
+}
+
+.payMode p{
+    font-size:1rem;
+    padding-top:2rem;
+    COLOR:WHITE;
+}
+
+.mode{
+    margin-left:-2.3rem;
+}
+
+.footer-box ul li{
+    list-style: none;
+    line-height:2rem;
+}
+
+.footer-insight{
+    margin-top:2rem;
+    margin-left:-1rem;
+}
+
+.experience{
+    margin-top:2rem;
+    margin-left:-1rem;
+}
+
+
+.newletter{
+    margin-top:2rem;
+}
+
+.footer-insight ul li a{
+    text-decoration: none;
+    color:rgb(190, 184, 184);
+}
+
+.footer-insight ul li a:hover{
+    color:white;
+}
+
+
+.newletter p{
+    color:white;
+}
+
+.social_media{
+    background-color: aquamarine;
+}
+
+/*sub footer*/
+
+
+.sub-footer-content{
+    display: flex;
+    padding:1.5rem 2rem 1.5rem 2rem;
+    justify-content: space-between;
+}
+ 
+.footer_audi{
+    font-size:1.3rem;
+    color:white;
+    background-color: #5C8BD6;
+    width:180px;
+    padding-left:1rem;
+    border-radius:50px;
+    margin-top:-0.5rem;
+}
+
+.footer-text-p{
+    color:#5C8BD6;
+}
+
+.footer-first-content{
+    background-color: #F0F1F5;
+     margin:1.5rem;
+    border-radius:8px;
+}
+
+.email button{
+ width:100px;
+ font-size:1.1rem;
+ border:none;
+ background-color: #5C8BD6;
+ border-radius:4px;
+ color:white;
+ margin-left:0.7rem;
+ line-height: 1.8rem;;
+}
+
+.email input{
+    width:350px;
+    border-radius:4px;
+    border:1px solid rgb(132, 127, 127);
+    line-height: 1.9rem;;
+}
+
+.email{
+    margin-top:1rem;
+}
+
+/*footer icon*/
+
+.footer_icons ul{
+    float: right;
+    display: flex;
+    gap:10px;
+    margin-right:1rem;
+}
+ .footer_icons li{
+    list-style: none;
+    font-size:1.3rem;
+}
+
+.footer_icons a{
+    text-decoration: none;
+    color:white;
+}
+
+.footer_icons li:hover{
+  font-size:1.4rem;
+}
+
+@media(max-width:800px){
+    .email button{
+        margin-top:1rem;
+        margin-left:2rem;
+    }
+
+    .email{
+        margin-left:3rem;
+    }
+
+    .email input{
+        width:250px;
+    }
+
+}
+
+        /*mobile*/
+
+@media (max-width:480px){
+    .insight-first{
+        margin-left:1rem;
+    }
+
+    /*sub footer*/
+
+    .footer-text-p{
+        font-size:0.9rem;
+    }
+
+    .footer_audi{
+        font-size:1rem;
+        width:100px;
+    }
+
+    .footer-text{
+        margin-left:-1rem;
+    }
+    .footer-first-content{
+        margin-left:-0.5rem;
+    }
+
+    .email input{
+        width:150px;
+        line-height:1rem;
+        margin-left:-1.5rem; 
+        margin-top:0.5rem;
+    }
+   
+    .subscribe{
+        margin-top:0.5rem;
+    } 
+} 
