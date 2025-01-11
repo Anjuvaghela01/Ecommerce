@@ -7,3 +7,7 @@ it includes the design ,layout and functionality of the website .
   <li>CSS</li>
 </ul>
 
+<h2>Installation</h2>
+clone this repository : https://github.com/Anjuvaghela01/Ecommerce.git
+now open this repository in your preferred web browser.
+
